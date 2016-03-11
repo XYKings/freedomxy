@@ -1,0 +1,1336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490006921C48E55F00024297 /* LMSPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 490006911C48E55F00024297 /* LMSPlayerManager.m */; };
+		490006951C48E56D00024297 /* LMSMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 490006941C48E56D00024297 /* LMSMusicInfo.m */; };
+		490006981C48FA4A00024297 /* LMSAuditionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 490006971C48FA4A00024297 /* LMSAuditionList.m */; };
+		4900069B1C4924A600024297 /* LMSMusicTimeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4900069A1C4924A600024297 /* LMSMusicTimeFormatter.m */; };
+		4900069E1C49300900024297 /* LMSMusicPlayerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4900069D1C49300900024297 /* LMSMusicPlayerTool.m */; };
+		493895CD1C4F313800647C42 /* CameraFIlters.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895B81C4F313800647C42 /* CameraFIlters.m */; };
+		493895CE1C4F313800647C42 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895BA1C4F313800647C42 /* CameraManager.m */; };
+		493895CF1C4F313800647C42 /* FilterGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895BC1C4F313800647C42 /* FilterGroup.m */; };
+		493895D01C4F313800647C42 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895BE1C4F313800647C42 /* PhotoManager.m */; };
+		493895D11C4F313800647C42 /* ReviseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895C01C4F313800647C42 /* ReviseCollectionViewCell.m */; };
+		493895D21C4F313800647C42 /* ReviseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895C21C4F313800647C42 /* ReviseView.m */; };
+		493895D31C4F313800647C42 /* ReviseVIewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895C41C4F313800647C42 /* ReviseVIewCell.m */; };
+		493895D41C4F313800647C42 /* ReviseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895C61C4F313800647C42 /* ReviseViewController.m */; };
+		493895D51C4F313800647C42 /* SelectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895C81C4F313800647C42 /* SelectCollectionViewCell.m */; };
+		493895D61C4F313800647C42 /* SelectSpecialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895CA1C4F313800647C42 /* SelectSpecialView.m */; };
+		493895D71C4F313800647C42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 493895CC1C4F313800647C42 /* ViewController.m */; };
+		494202991C4F2A6700A259EE /* LMS_MVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494202861C4F2A6700A259EE /* LMS_MVPlayerViewController.m */; };
+		4942029A1C4F2A6700A259EE /* LMS_MVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 494202891C4F2A6700A259EE /* LMS_MVModel.m */; };
+		4942029B1C4F2A6700A259EE /* LMS_VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942028B1C4F2A6700A259EE /* LMS_VideoModel.m */; };
+		4942029C1C4F2A6700A259EE /* LMS_MVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4942028E1C4F2A6700A259EE /* LMS_MVTableViewCell.m */; };
+		4942029D1C4F2A6700A259EE /* LMS_PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494202901C4F2A6700A259EE /* LMS_PlayerView.m */; };
+		4942029E1C4F2A6700A259EE /* LMS_SearchPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494202941C4F2A6700A259EE /* LMS_SearchPageViewController.m */; };
+		4942029F1C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 494202981C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.m */; };
+		49ABDA001C50CFF30013658C /* LMSMusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9E51C50CFF30013658C /* LMSMusicListViewController.m */; };
+		49ABDA011C50CFF30013658C /* LMSMusicListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9E81C50CFF30013658C /* LMSMusicListModel.m */; };
+		49ABDA021C50CFF30013658C /* LMSMusicListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9EB1C50CFF30013658C /* LMSMusicListView.m */; };
+		49ABDA031C50CFF30013658C /* LMSMusicMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9EF1C50CFF30013658C /* LMSMusicMenuViewController.m */; };
+		49ABDA041C50CFF30013658C /* LMSMusicMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9F31C50CFF30013658C /* LMSMusicMenuCollectionViewCell.m */; };
+		49ABDA051C50CFF30013658C /* LMSMusicMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9F51C50CFF30013658C /* LMSMusicMenuView.m */; };
+		49ABDA061C50CFF30013658C /* LMSRankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9F91C50CFF30013658C /* LMSRankViewController.m */; };
+		49ABDA071C50CFF30013658C /* LMSRankListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9FC1C50CFF30013658C /* LMSRankListModel.m */; };
+		49ABDA081C50CFF30013658C /* LMSRankListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABD9FF1C50CFF30013658C /* LMSRankListTableViewCell.m */; };
+		49ABDA0B1C50D7A30013658C /* LMSDiscoverTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABDA0A1C50D7A30013658C /* LMSDiscoverTableViewCell.m */; };
+		49ABDA0F1C50E02E0013658C /* LMS_MusicList_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ABDA0E1C50E02E0013658C /* LMS_MusicList_TableViewCell.m */; };
+		49CD2F7D1C50BE3300DC39E1 /* LMS_MVLookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD2F7C1C50BE3300DC39E1 /* LMS_MVLookViewController.m */; };
+		49CD2F801C50BFBA00DC39E1 /* LMS_MVLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD2F7F1C50BFBA00DC39E1 /* LMS_MVLook.m */; };
+		49CD2F831C50C14300DC39E1 /* LMS_MVLookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD2F821C50C14300DC39E1 /* LMS_MVLookTableViewCell.m */; };
+		49E607681C49F47B0083C593 /* LMS_MusicList_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E607671C49F47B0083C593 /* LMS_MusicList_ViewController.m */; };
+		49E88D761C449207008C7621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88D751C449207008C7621 /* main.m */; };
+		49E88D791C449207008C7621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88D781C449207008C7621 /* AppDelegate.m */; };
+		49E88D7B1C449207008C7621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E88D7A1C449207008C7621 /* Assets.xcassets */; };
+		49E88D7E1C449207008C7621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E88D7C1C449207008C7621 /* LaunchScreen.storyboard */; };
+		49E88D891C449207008C7621 /* FreedomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88D881C449207008C7621 /* FreedomTests.m */; };
+		49E88D941C449207008C7621 /* FreedomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88D931C449207008C7621 /* FreedomUITests.m */; };
+		49E88DB71C4494FC008C7621 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DB61C4494FC008C7621 /* CoreDataManager.m */; };
+		49E88DBA1C449526008C7621 /* Freedom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DB81C449526008C7621 /* Freedom.xcdatamodeld */; };
+		49E88DBD1C449561008C7621 /* LMSAFNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DBC1C449561008C7621 /* LMSAFNetTool.m */; };
+		49E88DC01C449638008C7621 /* LMSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DBF1C449638008C7621 /* LMSBaseViewController.m */; };
+		49E88DC31C449649008C7621 /* LMSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DC21C449649008C7621 /* LMSBaseModel.m */; };
+		49E88DC61C44965A008C7621 /* LMSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DC51C44965A008C7621 /* LMSBaseView.m */; };
+		49E88DC91C44966C008C7621 /* LMSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DC81C44966C008C7621 /* LMSBaseTableViewCell.m */; };
+		49E88DCC1C449682008C7621 /* LMSBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DCB1C449682008C7621 /* LMSBaseCollectionViewCell.m */; };
+		49E88DCF1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DCE1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.m */; };
+		49E88DD21C449937008C7621 /* LMS_Main_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DD11C449937008C7621 /* LMS_Main_ViewController.m */; };
+		49E88DDA1C44D8A3008C7621 /* LMS_MusicPlay_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E88DD91C44D8A3008C7621 /* LMS_MusicPlay_ViewController.m */; };
+		49EE6E6D1C4DD3EF0000D366 /* LMS_Discover_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE6E6B1C4DD3EF0000D366 /* LMS_Discover_ViewController.m */; };
+		49EE6E861C4DE28D0000D366 /* LMSDiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE6E851C4DE28D0000D366 /* LMSDiscoverModel.m */; };
+		49EE6E891C4DE5300000D366 /* LMSZeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE6E881C4DE5300000D366 /* LMSZeroTableViewCell.m */; };
+		49EE6E8C1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE6E8B1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.m */; };
+		49EE6E8F1C4DE6F20000D366 /* SYInformationPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE6E8E1C4DE6F20000D366 /* SYInformationPageView.m */; };
+		49EE6F081C4E572E0000D366 /* LMSDiscoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE6F071C4E572D0000D366 /* LMSDiscoverView.m */; };
+		90A33AFF39E624B13C8D0666 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0A799F63F72DD51E234680 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49E88D851C449207008C7621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E88D691C449207008C7621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E88D701C449207008C7621;
+			remoteInfo = Freedom;
+		};
+		49E88D901C449207008C7621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49E88D691C449207008C7621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E88D701C449207008C7621;
+			remoteInfo = Freedom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490006901C48E55F00024297 /* LMSPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSPlayerManager.h; sourceTree = "<group>"; };
+		490006911C48E55F00024297 /* LMSPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSPlayerManager.m; sourceTree = "<group>"; };
+		490006931C48E56D00024297 /* LMSMusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicInfo.h; sourceTree = "<group>"; };
+		490006941C48E56D00024297 /* LMSMusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicInfo.m; sourceTree = "<group>"; };
+		490006961C48FA4A00024297 /* LMSAuditionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAuditionList.h; sourceTree = "<group>"; };
+		490006971C48FA4A00024297 /* LMSAuditionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAuditionList.m; sourceTree = "<group>"; };
+		490006991C4924A600024297 /* LMSMusicTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicTimeFormatter.h; sourceTree = "<group>"; };
+		4900069A1C4924A600024297 /* LMSMusicTimeFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicTimeFormatter.m; sourceTree = "<group>"; };
+		4900069C1C49300900024297 /* LMSMusicPlayerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicPlayerTool.h; sourceTree = "<group>"; };
+		4900069D1C49300900024297 /* LMSMusicPlayerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicPlayerTool.m; sourceTree = "<group>"; };
+		493895B71C4F313800647C42 /* CameraFIlters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFIlters.h; sourceTree = "<group>"; };
+		493895B81C4F313800647C42 /* CameraFIlters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFIlters.m; sourceTree = "<group>"; };
+		493895B91C4F313800647C42 /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		493895BA1C4F313800647C42 /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		493895BB1C4F313800647C42 /* FilterGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterGroup.h; sourceTree = "<group>"; };
+		493895BC1C4F313800647C42 /* FilterGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterGroup.m; sourceTree = "<group>"; };
+		493895BD1C4F313800647C42 /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		493895BE1C4F313800647C42 /* PhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		493895BF1C4F313800647C42 /* ReviseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviseCollectionViewCell.h; sourceTree = "<group>"; };
+		493895C01C4F313800647C42 /* ReviseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviseCollectionViewCell.m; sourceTree = "<group>"; };
+		493895C11C4F313800647C42 /* ReviseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviseView.h; sourceTree = "<group>"; };
+		493895C21C4F313800647C42 /* ReviseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviseView.m; sourceTree = "<group>"; };
+		493895C31C4F313800647C42 /* ReviseVIewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviseVIewCell.h; sourceTree = "<group>"; };
+		493895C41C4F313800647C42 /* ReviseVIewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviseVIewCell.m; sourceTree = "<group>"; };
+		493895C51C4F313800647C42 /* ReviseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviseViewController.h; sourceTree = "<group>"; };
+		493895C61C4F313800647C42 /* ReviseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviseViewController.m; sourceTree = "<group>"; };
+		493895C71C4F313800647C42 /* SelectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCollectionViewCell.h; sourceTree = "<group>"; };
+		493895C81C4F313800647C42 /* SelectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCollectionViewCell.m; sourceTree = "<group>"; };
+		493895C91C4F313800647C42 /* SelectSpecialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSpecialView.h; sourceTree = "<group>"; };
+		493895CA1C4F313800647C42 /* SelectSpecialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSpecialView.m; sourceTree = "<group>"; };
+		493895CB1C4F313800647C42 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		493895CC1C4F313800647C42 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		494202851C4F2A6700A259EE /* LMS_MVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MVPlayerViewController.h; sourceTree = "<group>"; };
+		494202861C4F2A6700A259EE /* LMS_MVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MVPlayerViewController.m; sourceTree = "<group>"; };
+		494202881C4F2A6700A259EE /* LMS_MVModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MVModel.h; sourceTree = "<group>"; };
+		494202891C4F2A6700A259EE /* LMS_MVModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MVModel.m; sourceTree = "<group>"; };
+		4942028A1C4F2A6700A259EE /* LMS_VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_VideoModel.h; sourceTree = "<group>"; };
+		4942028B1C4F2A6700A259EE /* LMS_VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_VideoModel.m; sourceTree = "<group>"; };
+		4942028D1C4F2A6700A259EE /* LMS_MVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MVTableViewCell.h; sourceTree = "<group>"; };
+		4942028E1C4F2A6700A259EE /* LMS_MVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MVTableViewCell.m; sourceTree = "<group>"; };
+		4942028F1C4F2A6700A259EE /* LMS_PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_PlayerView.h; sourceTree = "<group>"; };
+		494202901C4F2A6700A259EE /* LMS_PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_PlayerView.m; sourceTree = "<group>"; };
+		494202931C4F2A6700A259EE /* LMS_SearchPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_SearchPageViewController.h; sourceTree = "<group>"; };
+		494202941C4F2A6700A259EE /* LMS_SearchPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_SearchPageViewController.m; sourceTree = "<group>"; };
+		494202971C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_SearchPageCollectionViewCell.h; sourceTree = "<group>"; };
+		494202981C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_SearchPageCollectionViewCell.m; sourceTree = "<group>"; };
+		49ABD9E41C50CFF30013658C /* LMSMusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicListViewController.h; sourceTree = "<group>"; };
+		49ABD9E51C50CFF30013658C /* LMSMusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicListViewController.m; sourceTree = "<group>"; };
+		49ABD9E71C50CFF30013658C /* LMSMusicListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicListModel.h; sourceTree = "<group>"; };
+		49ABD9E81C50CFF30013658C /* LMSMusicListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicListModel.m; sourceTree = "<group>"; };
+		49ABD9EA1C50CFF30013658C /* LMSMusicListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicListView.h; sourceTree = "<group>"; };
+		49ABD9EB1C50CFF30013658C /* LMSMusicListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicListView.m; sourceTree = "<group>"; };
+		49ABD9EE1C50CFF30013658C /* LMSMusicMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicMenuViewController.h; sourceTree = "<group>"; };
+		49ABD9EF1C50CFF30013658C /* LMSMusicMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicMenuViewController.m; sourceTree = "<group>"; };
+		49ABD9F21C50CFF30013658C /* LMSMusicMenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicMenuCollectionViewCell.h; sourceTree = "<group>"; };
+		49ABD9F31C50CFF30013658C /* LMSMusicMenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicMenuCollectionViewCell.m; sourceTree = "<group>"; };
+		49ABD9F41C50CFF30013658C /* LMSMusicMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSMusicMenuView.h; sourceTree = "<group>"; };
+		49ABD9F51C50CFF30013658C /* LMSMusicMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSMusicMenuView.m; sourceTree = "<group>"; };
+		49ABD9F81C50CFF30013658C /* LMSRankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRankViewController.h; sourceTree = "<group>"; };
+		49ABD9F91C50CFF30013658C /* LMSRankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRankViewController.m; sourceTree = "<group>"; };
+		49ABD9FB1C50CFF30013658C /* LMSRankListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRankListModel.h; sourceTree = "<group>"; };
+		49ABD9FC1C50CFF30013658C /* LMSRankListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRankListModel.m; sourceTree = "<group>"; };
+		49ABD9FE1C50CFF30013658C /* LMSRankListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSRankListTableViewCell.h; sourceTree = "<group>"; };
+		49ABD9FF1C50CFF30013658C /* LMSRankListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSRankListTableViewCell.m; sourceTree = "<group>"; };
+		49ABDA091C50D7A30013658C /* LMSDiscoverTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDiscoverTableViewCell.h; sourceTree = "<group>"; };
+		49ABDA0A1C50D7A30013658C /* LMSDiscoverTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDiscoverTableViewCell.m; sourceTree = "<group>"; };
+		49ABDA0D1C50E02E0013658C /* LMS_MusicList_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MusicList_TableViewCell.h; sourceTree = "<group>"; };
+		49ABDA0E1C50E02E0013658C /* LMS_MusicList_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MusicList_TableViewCell.m; sourceTree = "<group>"; };
+		49CD2F7B1C50BE3300DC39E1 /* LMS_MVLookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MVLookViewController.h; sourceTree = "<group>"; };
+		49CD2F7C1C50BE3300DC39E1 /* LMS_MVLookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MVLookViewController.m; sourceTree = "<group>"; };
+		49CD2F7E1C50BFBA00DC39E1 /* LMS_MVLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MVLook.h; sourceTree = "<group>"; };
+		49CD2F7F1C50BFBA00DC39E1 /* LMS_MVLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MVLook.m; sourceTree = "<group>"; };
+		49CD2F811C50C14300DC39E1 /* LMS_MVLookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MVLookTableViewCell.h; sourceTree = "<group>"; };
+		49CD2F821C50C14300DC39E1 /* LMS_MVLookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MVLookTableViewCell.m; sourceTree = "<group>"; };
+		49E607661C49F47B0083C593 /* LMS_MusicList_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MusicList_ViewController.h; sourceTree = "<group>"; };
+		49E607671C49F47B0083C593 /* LMS_MusicList_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MusicList_ViewController.m; sourceTree = "<group>"; };
+		49E88D711C449207008C7621 /* Freedom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freedom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E88D751C449207008C7621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49E88D771C449207008C7621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49E88D781C449207008C7621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49E88D7A1C449207008C7621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49E88D7D1C449207008C7621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49E88D7F1C449207008C7621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E88D841C449207008C7621 /* FreedomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E88D881C449207008C7621 /* FreedomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreedomTests.m; sourceTree = "<group>"; };
+		49E88D8A1C449207008C7621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E88D8F1C449207008C7621 /* FreedomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E88D931C449207008C7621 /* FreedomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreedomUITests.m; sourceTree = "<group>"; };
+		49E88D951C449207008C7621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E88DB51C4494FC008C7621 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		49E88DB61C4494FC008C7621 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		49E88DB91C449526008C7621 /* Freedom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Freedom.xcdatamodel; sourceTree = "<group>"; };
+		49E88DBB1C449561008C7621 /* LMSAFNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSAFNetTool.h; sourceTree = "<group>"; };
+		49E88DBC1C449561008C7621 /* LMSAFNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSAFNetTool.m; sourceTree = "<group>"; };
+		49E88DBE1C449638008C7621 /* LMSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBaseViewController.h; sourceTree = "<group>"; };
+		49E88DBF1C449638008C7621 /* LMSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBaseViewController.m; sourceTree = "<group>"; };
+		49E88DC11C449649008C7621 /* LMSBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBaseModel.h; sourceTree = "<group>"; };
+		49E88DC21C449649008C7621 /* LMSBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBaseModel.m; sourceTree = "<group>"; };
+		49E88DC41C44965A008C7621 /* LMSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBaseView.h; sourceTree = "<group>"; };
+		49E88DC51C44965A008C7621 /* LMSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBaseView.m; sourceTree = "<group>"; };
+		49E88DC71C44966C008C7621 /* LMSBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBaseTableViewCell.h; sourceTree = "<group>"; };
+		49E88DC81C44966C008C7621 /* LMSBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBaseTableViewCell.m; sourceTree = "<group>"; };
+		49E88DCA1C449682008C7621 /* LMSBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		49E88DCB1C449682008C7621 /* LMSBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		49E88DCD1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_LeftDrawer_ViewController.h; sourceTree = "<group>"; };
+		49E88DCE1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_LeftDrawer_ViewController.m; sourceTree = "<group>"; };
+		49E88DD01C449937008C7621 /* LMS_Main_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_Main_ViewController.h; sourceTree = "<group>"; };
+		49E88DD11C449937008C7621 /* LMS_Main_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_Main_ViewController.m; sourceTree = "<group>"; };
+		49E88DD31C449994008C7621 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		49E88DD81C44D8A3008C7621 /* LMS_MusicPlay_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_MusicPlay_ViewController.h; sourceTree = "<group>"; };
+		49E88DD91C44D8A3008C7621 /* LMS_MusicPlay_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_MusicPlay_ViewController.m; sourceTree = "<group>"; };
+		49EE6E6A1C4DD3EF0000D366 /* LMS_Discover_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMS_Discover_ViewController.h; sourceTree = "<group>"; };
+		49EE6E6B1C4DD3EF0000D366 /* LMS_Discover_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMS_Discover_ViewController.m; sourceTree = "<group>"; };
+		49EE6E841C4DE28D0000D366 /* LMSDiscoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDiscoverModel.h; sourceTree = "<group>"; };
+		49EE6E851C4DE28D0000D366 /* LMSDiscoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDiscoverModel.m; sourceTree = "<group>"; };
+		49EE6E871C4DE5300000D366 /* LMSZeroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSZeroTableViewCell.h; sourceTree = "<group>"; };
+		49EE6E881C4DE5300000D366 /* LMSZeroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSZeroTableViewCell.m; sourceTree = "<group>"; };
+		49EE6E8A1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSZeroCollectionViewCell.h; sourceTree = "<group>"; };
+		49EE6E8B1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSZeroCollectionViewCell.m; sourceTree = "<group>"; };
+		49EE6E8D1C4DE6F20000D366 /* SYInformationPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYInformationPageView.h; sourceTree = "<group>"; };
+		49EE6E8E1C4DE6F20000D366 /* SYInformationPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYInformationPageView.m; sourceTree = "<group>"; };
+		49EE6F061C4E572D0000D366 /* LMSDiscoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSDiscoverView.h; sourceTree = "<group>"; };
+		49EE6F071C4E572D0000D366 /* LMSDiscoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSDiscoverView.m; sourceTree = "<group>"; };
+		4D0A799F63F72DD51E234680 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7E2DBF01904A0D414CE2A4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		74076B9D8395AF4A796A9EF0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E88D6E1C449207008C7621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A33AFF39E624B13C8D0666 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E88D811C449207008C7621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E88D8C1C449207008C7621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F04759D71F258A9FAA63C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A799F63F72DD51E234680 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		493883A11C4F1C7800D9C43F /* RankPage */ = {
+			isa = PBXGroup;
+			children = (
+				493883A21C4F1C7800D9C43F /* Controller */,
+				493883A31C4F1C7800D9C43F /* Model */,
+				493883A41C4F1C7800D9C43F /* View */,
+			);
+			path = RankPage;
+			sourceTree = "<group>";
+		};
+		493883A21C4F1C7800D9C43F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		493883A31C4F1C7800D9C43F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		493883A41C4F1C7800D9C43F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		493895B61C4F313800647C42 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				493895B71C4F313800647C42 /* CameraFIlters.h */,
+				493895B81C4F313800647C42 /* CameraFIlters.m */,
+				493895B91C4F313800647C42 /* CameraManager.h */,
+				493895BA1C4F313800647C42 /* CameraManager.m */,
+				493895BB1C4F313800647C42 /* FilterGroup.h */,
+				493895BC1C4F313800647C42 /* FilterGroup.m */,
+				493895BD1C4F313800647C42 /* PhotoManager.h */,
+				493895BE1C4F313800647C42 /* PhotoManager.m */,
+				493895BF1C4F313800647C42 /* ReviseCollectionViewCell.h */,
+				493895C01C4F313800647C42 /* ReviseCollectionViewCell.m */,
+				493895C11C4F313800647C42 /* ReviseView.h */,
+				493895C21C4F313800647C42 /* ReviseView.m */,
+				493895C31C4F313800647C42 /* ReviseVIewCell.h */,
+				493895C41C4F313800647C42 /* ReviseVIewCell.m */,
+				493895C51C4F313800647C42 /* ReviseViewController.h */,
+				493895C61C4F313800647C42 /* ReviseViewController.m */,
+				493895C71C4F313800647C42 /* SelectCollectionViewCell.h */,
+				493895C81C4F313800647C42 /* SelectCollectionViewCell.m */,
+				493895C91C4F313800647C42 /* SelectSpecialView.h */,
+				493895CA1C4F313800647C42 /* SelectSpecialView.m */,
+				493895CB1C4F313800647C42 /* ViewController.h */,
+				493895CC1C4F313800647C42 /* ViewController.m */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		494202831C4F2A6700A259EE /* MVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				494202841C4F2A6700A259EE /* Controller */,
+				494202871C4F2A6700A259EE /* Model */,
+				4942028C1C4F2A6700A259EE /* View */,
+			);
+			name = MVPlayer;
+			path = Freedom/MVPlayer;
+			sourceTree = SOURCE_ROOT;
+		};
+		494202841C4F2A6700A259EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				494202851C4F2A6700A259EE /* LMS_MVPlayerViewController.h */,
+				494202861C4F2A6700A259EE /* LMS_MVPlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494202871C4F2A6700A259EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				494202881C4F2A6700A259EE /* LMS_MVModel.h */,
+				494202891C4F2A6700A259EE /* LMS_MVModel.m */,
+				4942028A1C4F2A6700A259EE /* LMS_VideoModel.h */,
+				4942028B1C4F2A6700A259EE /* LMS_VideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4942028C1C4F2A6700A259EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4942028D1C4F2A6700A259EE /* LMS_MVTableViewCell.h */,
+				4942028E1C4F2A6700A259EE /* LMS_MVTableViewCell.m */,
+				4942028F1C4F2A6700A259EE /* LMS_PlayerView.h */,
+				494202901C4F2A6700A259EE /* LMS_PlayerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494202911C4F2A6700A259EE /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				494202921C4F2A6700A259EE /* Controller */,
+				494202951C4F2A6700A259EE /* Model */,
+				494202961C4F2A6700A259EE /* View */,
+			);
+			name = SearchPage;
+			path = Freedom/SearchPage;
+			sourceTree = SOURCE_ROOT;
+		};
+		494202921C4F2A6700A259EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				494202931C4F2A6700A259EE /* LMS_SearchPageViewController.h */,
+				494202941C4F2A6700A259EE /* LMS_SearchPageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494202951C4F2A6700A259EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494202961C4F2A6700A259EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				494202971C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.h */,
+				494202981C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49ABD9E21C50CFF30013658C /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9E31C50CFF30013658C /* Controller */,
+				49ABD9E61C50CFF30013658C /* Model */,
+				49ABD9E91C50CFF30013658C /* View */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		49ABD9E31C50CFF30013658C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9E41C50CFF30013658C /* LMSMusicListViewController.h */,
+				49ABD9E51C50CFF30013658C /* LMSMusicListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49ABD9E61C50CFF30013658C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9E71C50CFF30013658C /* LMSMusicListModel.h */,
+				49ABD9E81C50CFF30013658C /* LMSMusicListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49ABD9E91C50CFF30013658C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9EA1C50CFF30013658C /* LMSMusicListView.h */,
+				49ABD9EB1C50CFF30013658C /* LMSMusicListView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49ABD9EC1C50CFF30013658C /* MusicMenu */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9ED1C50CFF30013658C /* Controller */,
+				49ABD9F01C50CFF30013658C /* Model */,
+				49ABD9F11C50CFF30013658C /* View */,
+			);
+			path = MusicMenu;
+			sourceTree = "<group>";
+		};
+		49ABD9ED1C50CFF30013658C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9EE1C50CFF30013658C /* LMSMusicMenuViewController.h */,
+				49ABD9EF1C50CFF30013658C /* LMSMusicMenuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49ABD9F01C50CFF30013658C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49ABD9F11C50CFF30013658C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9F21C50CFF30013658C /* LMSMusicMenuCollectionViewCell.h */,
+				49ABD9F31C50CFF30013658C /* LMSMusicMenuCollectionViewCell.m */,
+				49ABD9F41C50CFF30013658C /* LMSMusicMenuView.h */,
+				49ABD9F51C50CFF30013658C /* LMSMusicMenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49ABD9F61C50CFF30013658C /* RankPage */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9F71C50CFF30013658C /* Controller */,
+				49ABD9FA1C50CFF30013658C /* Model */,
+				49ABD9FD1C50CFF30013658C /* View */,
+			);
+			path = RankPage;
+			sourceTree = "<group>";
+		};
+		49ABD9F71C50CFF30013658C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9F81C50CFF30013658C /* LMSRankViewController.h */,
+				49ABD9F91C50CFF30013658C /* LMSRankViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49ABD9FA1C50CFF30013658C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9FB1C50CFF30013658C /* LMSRankListModel.h */,
+				49ABD9FC1C50CFF30013658C /* LMSRankListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49ABD9FD1C50CFF30013658C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9FE1C50CFF30013658C /* LMSRankListTableViewCell.h */,
+				49ABD9FF1C50CFF30013658C /* LMSRankListTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49ABDA0C1C50DFF80013658C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49ABDA0D1C50E02E0013658C /* LMS_MusicList_TableViewCell.h */,
+				49ABDA0E1C50E02E0013658C /* LMS_MusicList_TableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49CD2F771C50BE2100DC39E1 /* MVLook */ = {
+			isa = PBXGroup;
+			children = (
+				49CD2F781C50BE2100DC39E1 /* Controller */,
+				49CD2F791C50BE2100DC39E1 /* Model */,
+				49CD2F7A1C50BE2100DC39E1 /* View */,
+			);
+			name = MVLook;
+			path = Freedom/MVLook;
+			sourceTree = SOURCE_ROOT;
+		};
+		49CD2F781C50BE2100DC39E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49CD2F7B1C50BE3300DC39E1 /* LMS_MVLookViewController.h */,
+				49CD2F7C1C50BE3300DC39E1 /* LMS_MVLookViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49CD2F791C50BE2100DC39E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49CD2F7E1C50BFBA00DC39E1 /* LMS_MVLook.h */,
+				49CD2F7F1C50BFBA00DC39E1 /* LMS_MVLook.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49CD2F7A1C50BE2100DC39E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49CD2F811C50C14300DC39E1 /* LMS_MVLookTableViewCell.h */,
+				49CD2F821C50C14300DC39E1 /* LMS_MVLookTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49E88D681C449207008C7621 = {
+			isa = PBXGroup;
+			children = (
+				49E88D731C449207008C7621 /* Freedom */,
+				49E88D871C449207008C7621 /* FreedomTests */,
+				49E88D921C449207008C7621 /* FreedomUITests */,
+				49E88D721C449207008C7621 /* Products */,
+				4F34EE421DD376333A3E9A9C /* Pods */,
+				0F04759D71F258A9FAA63C50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49E88D721C449207008C7621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E88D711C449207008C7621 /* Freedom.app */,
+				49E88D841C449207008C7621 /* FreedomTests.xctest */,
+				49E88D8F1C449207008C7621 /* FreedomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E88D731C449207008C7621 /* Freedom */ = {
+			isa = PBXGroup;
+			children = (
+				493895B61C4F313800647C42 /* Camera */,
+				49E88DD41C44D712008C7621 /* MusicPlay */,
+				49E88DB11C449454008C7621 /* ThirdParty */,
+				49E88DA11C44943A008C7621 /* Base */,
+				49E88DAD1C44944E008C7621 /* MainPage */,
+				49E88DA91C44944A008C7621 /* LeftDrawer */,
+				49E88DA51C449446008C7621 /* GuidePage */,
+				49CD2F771C50BE2100DC39E1 /* MVLook */,
+				494202831C4F2A6700A259EE /* MVPlayer */,
+				494202911C4F2A6700A259EE /* SearchPage */,
+				49E88D771C449207008C7621 /* AppDelegate.h */,
+				49E88D781C449207008C7621 /* AppDelegate.m */,
+				49E88D7A1C449207008C7621 /* Assets.xcassets */,
+				49E88D7C1C449207008C7621 /* LaunchScreen.storyboard */,
+				49E88D7F1C449207008C7621 /* Info.plist */,
+				49E88D741C449207008C7621 /* Supporting Files */,
+			);
+			path = Freedom;
+			sourceTree = "<group>";
+		};
+		49E88D741C449207008C7621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E88D751C449207008C7621 /* main.m */,
+				49E88DD31C449994008C7621 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49E88D871C449207008C7621 /* FreedomTests */ = {
+			isa = PBXGroup;
+			children = (
+				49E88D881C449207008C7621 /* FreedomTests.m */,
+				49E88D8A1C449207008C7621 /* Info.plist */,
+			);
+			path = FreedomTests;
+			sourceTree = "<group>";
+		};
+		49E88D921C449207008C7621 /* FreedomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49E88D931C449207008C7621 /* FreedomUITests.m */,
+				49E88D951C449207008C7621 /* Info.plist */,
+			);
+			path = FreedomUITests;
+			sourceTree = "<group>";
+		};
+		49E88DA11C44943A008C7621 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DA21C44943A008C7621 /* Controller */,
+				49E88DA31C44943A008C7621 /* Model */,
+				49E88DA41C44943A008C7621 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		49E88DA21C44943A008C7621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DBE1C449638008C7621 /* LMSBaseViewController.h */,
+				49E88DBF1C449638008C7621 /* LMSBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49E88DA31C44943A008C7621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DC11C449649008C7621 /* LMSBaseModel.h */,
+				49E88DC21C449649008C7621 /* LMSBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49E88DA41C44943A008C7621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DC41C44965A008C7621 /* LMSBaseView.h */,
+				49E88DC51C44965A008C7621 /* LMSBaseView.m */,
+				49E88DC71C44966C008C7621 /* LMSBaseTableViewCell.h */,
+				49E88DC81C44966C008C7621 /* LMSBaseTableViewCell.m */,
+				49E88DCA1C449682008C7621 /* LMSBaseCollectionViewCell.h */,
+				49E88DCB1C449682008C7621 /* LMSBaseCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49E88DA51C449446008C7621 /* GuidePage */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DA61C449446008C7621 /* Controller */,
+				49E88DA71C449446008C7621 /* Model */,
+				49E88DA81C449446008C7621 /* View */,
+			);
+			path = GuidePage;
+			sourceTree = "<group>";
+		};
+		49E88DA61C449446008C7621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49E88DA71C449446008C7621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49E88DA81C449446008C7621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49E88DA91C44944A008C7621 /* LeftDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DAA1C44944A008C7621 /* Controller */,
+				49E88DAB1C44944A008C7621 /* Model */,
+				49E88DAC1C44944A008C7621 /* View */,
+			);
+			path = LeftDrawer;
+			sourceTree = "<group>";
+		};
+		49E88DAA1C44944A008C7621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DCD1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.h */,
+				49E88DCE1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49E88DAB1C44944A008C7621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49E88DAC1C44944A008C7621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49E88DAD1C44944E008C7621 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				49ABD9E21C50CFF30013658C /* MusicList */,
+				49ABD9EC1C50CFF30013658C /* MusicMenu */,
+				49ABD9F61C50CFF30013658C /* RankPage */,
+				493883A11C4F1C7800D9C43F /* RankPage */,
+				49E88DAE1C44944E008C7621 /* Controller */,
+				49E88DAF1C44944E008C7621 /* Model */,
+				49E88DB01C44944E008C7621 /* View */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		49E88DAE1C44944E008C7621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DD01C449937008C7621 /* LMS_Main_ViewController.h */,
+				49E88DD11C449937008C7621 /* LMS_Main_ViewController.m */,
+				49EE6E6A1C4DD3EF0000D366 /* LMS_Discover_ViewController.h */,
+				49EE6E6B1C4DD3EF0000D366 /* LMS_Discover_ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49E88DAF1C44944E008C7621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49EE6E841C4DE28D0000D366 /* LMSDiscoverModel.h */,
+				49EE6E851C4DE28D0000D366 /* LMSDiscoverModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49E88DB01C44944E008C7621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49EE6E8D1C4DE6F20000D366 /* SYInformationPageView.h */,
+				49EE6E8E1C4DE6F20000D366 /* SYInformationPageView.m */,
+				49EE6E871C4DE5300000D366 /* LMSZeroTableViewCell.h */,
+				49EE6E881C4DE5300000D366 /* LMSZeroTableViewCell.m */,
+				49EE6E8A1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.h */,
+				49EE6E8B1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.m */,
+				49EE6F061C4E572D0000D366 /* LMSDiscoverView.h */,
+				49EE6F071C4E572D0000D366 /* LMSDiscoverView.m */,
+				49ABDA091C50D7A30013658C /* LMSDiscoverTableViewCell.h */,
+				49ABDA0A1C50D7A30013658C /* LMSDiscoverTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49E88DB11C449454008C7621 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DB51C4494FC008C7621 /* CoreDataManager.h */,
+				49E88DB61C4494FC008C7621 /* CoreDataManager.m */,
+				49E88DB81C449526008C7621 /* Freedom.xcdatamodeld */,
+				49E88DBB1C449561008C7621 /* LMSAFNetTool.h */,
+				49E88DBC1C449561008C7621 /* LMSAFNetTool.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		49E88DD41C44D712008C7621 /* MusicPlay */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DD51C44D712008C7621 /* Controller */,
+				49E88DD61C44D712008C7621 /* Model */,
+				49ABDA0C1C50DFF80013658C /* View */,
+			);
+			path = MusicPlay;
+			sourceTree = "<group>";
+		};
+		49E88DD51C44D712008C7621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49E88DD81C44D8A3008C7621 /* LMS_MusicPlay_ViewController.h */,
+				49E88DD91C44D8A3008C7621 /* LMS_MusicPlay_ViewController.m */,
+				49E607661C49F47B0083C593 /* LMS_MusicList_ViewController.h */,
+				49E607671C49F47B0083C593 /* LMS_MusicList_ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		49E88DD61C44D712008C7621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				490006931C48E56D00024297 /* LMSMusicInfo.h */,
+				490006941C48E56D00024297 /* LMSMusicInfo.m */,
+				490006961C48FA4A00024297 /* LMSAuditionList.h */,
+				490006971C48FA4A00024297 /* LMSAuditionList.m */,
+				490006901C48E55F00024297 /* LMSPlayerManager.h */,
+				490006911C48E55F00024297 /* LMSPlayerManager.m */,
+				490006991C4924A600024297 /* LMSMusicTimeFormatter.h */,
+				4900069A1C4924A600024297 /* LMSMusicTimeFormatter.m */,
+				4900069C1C49300900024297 /* LMSMusicPlayerTool.h */,
+				4900069D1C49300900024297 /* LMSMusicPlayerTool.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F34EE421DD376333A3E9A9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74076B9D8395AF4A796A9EF0 /* Pods.debug.xcconfig */,
+				5E7E2DBF01904A0D414CE2A4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E88D701C449207008C7621 /* Freedom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E88D981C449207008C7621 /* Build configuration list for PBXNativeTarget "Freedom" */;
+			buildPhases = (
+				688E5C64BF3FE9ED17564791 /* Check Pods Manifest.lock */,
+				49E88D6D1C449207008C7621 /* Sources */,
+				49E88D6E1C449207008C7621 /* Frameworks */,
+				49E88D6F1C449207008C7621 /* Resources */,
+				EB433D57A07535F64DA8C9B7 /* Embed Pods Frameworks */,
+				8D0E11A83C17907F37CFE931 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freedom;
+			productName = Freedom;
+			productReference = 49E88D711C449207008C7621 /* Freedom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49E88D831C449207008C7621 /* FreedomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E88D9B1C449207008C7621 /* Build configuration list for PBXNativeTarget "FreedomTests" */;
+			buildPhases = (
+				49E88D801C449207008C7621 /* Sources */,
+				49E88D811C449207008C7621 /* Frameworks */,
+				49E88D821C449207008C7621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E88D861C449207008C7621 /* PBXTargetDependency */,
+			);
+			name = FreedomTests;
+			productName = FreedomTests;
+			productReference = 49E88D841C449207008C7621 /* FreedomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49E88D8E1C449207008C7621 /* FreedomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E88D9E1C449207008C7621 /* Build configuration list for PBXNativeTarget "FreedomUITests" */;
+			buildPhases = (
+				49E88D8B1C449207008C7621 /* Sources */,
+				49E88D8C1C449207008C7621 /* Frameworks */,
+				49E88D8D1C449207008C7621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E88D911C449207008C7621 /* PBXTargetDependency */,
+			);
+			name = FreedomUITests;
+			productName = FreedomUITests;
+			productReference = 49E88D8F1C449207008C7621 /* FreedomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E88D691C449207008C7621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LMS;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LMS;
+				TargetAttributes = {
+					49E88D701C449207008C7621 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					49E88D831C449207008C7621 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49E88D701C449207008C7621;
+					};
+					49E88D8E1C449207008C7621 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 49E88D701C449207008C7621;
+					};
+				};
+			};
+			buildConfigurationList = 49E88D6C1C449207008C7621 /* Build configuration list for PBXProject "Freedom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49E88D681C449207008C7621;
+			productRefGroup = 49E88D721C449207008C7621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E88D701C449207008C7621 /* Freedom */,
+				49E88D831C449207008C7621 /* FreedomTests */,
+				49E88D8E1C449207008C7621 /* FreedomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E88D6F1C449207008C7621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E88D7B1C449207008C7621 /* Assets.xcassets in Resources */,
+				49E88D7E1C449207008C7621 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E88D821C449207008C7621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E88D8D1C449207008C7621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		688E5C64BF3FE9ED17564791 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0E11A83C17907F37CFE931 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB433D57A07535F64DA8C9B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E88D6D1C449207008C7621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ABDA071C50CFF30013658C /* LMSRankListModel.m in Sources */,
+				4942029A1C4F2A6700A259EE /* LMS_MVModel.m in Sources */,
+				4942029C1C4F2A6700A259EE /* LMS_MVTableViewCell.m in Sources */,
+				49EE6F081C4E572E0000D366 /* LMSDiscoverView.m in Sources */,
+				49CD2F7D1C50BE3300DC39E1 /* LMS_MVLookViewController.m in Sources */,
+				493895D11C4F313800647C42 /* ReviseCollectionViewCell.m in Sources */,
+				4942029B1C4F2A6700A259EE /* LMS_VideoModel.m in Sources */,
+				49ABDA031C50CFF30013658C /* LMSMusicMenuViewController.m in Sources */,
+				49E88DC31C449649008C7621 /* LMSBaseModel.m in Sources */,
+				49ABDA081C50CFF30013658C /* LMSRankListTableViewCell.m in Sources */,
+				493895D51C4F313800647C42 /* SelectCollectionViewCell.m in Sources */,
+				493895D41C4F313800647C42 /* ReviseViewController.m in Sources */,
+				493895D31C4F313800647C42 /* ReviseVIewCell.m in Sources */,
+				490006981C48FA4A00024297 /* LMSAuditionList.m in Sources */,
+				49E607681C49F47B0083C593 /* LMS_MusicList_ViewController.m in Sources */,
+				49E88DBD1C449561008C7621 /* LMSAFNetTool.m in Sources */,
+				49ABDA051C50CFF30013658C /* LMSMusicMenuView.m in Sources */,
+				49EE6E8F1C4DE6F20000D366 /* SYInformationPageView.m in Sources */,
+				49ABDA061C50CFF30013658C /* LMSRankViewController.m in Sources */,
+				49EE6E891C4DE5300000D366 /* LMSZeroTableViewCell.m in Sources */,
+				4942029F1C4F2A6700A259EE /* LMS_SearchPageCollectionViewCell.m in Sources */,
+				49EE6E861C4DE28D0000D366 /* LMSDiscoverModel.m in Sources */,
+				49E88DD21C449937008C7621 /* LMS_Main_ViewController.m in Sources */,
+				493895CF1C4F313800647C42 /* FilterGroup.m in Sources */,
+				49E88DDA1C44D8A3008C7621 /* LMS_MusicPlay_ViewController.m in Sources */,
+				493895D21C4F313800647C42 /* ReviseView.m in Sources */,
+				493895CD1C4F313800647C42 /* CameraFIlters.m in Sources */,
+				49ABDA0B1C50D7A30013658C /* LMSDiscoverTableViewCell.m in Sources */,
+				49E88DCC1C449682008C7621 /* LMSBaseCollectionViewCell.m in Sources */,
+				490006921C48E55F00024297 /* LMSPlayerManager.m in Sources */,
+				49ABDA011C50CFF30013658C /* LMSMusicListModel.m in Sources */,
+				49CD2F831C50C14300DC39E1 /* LMS_MVLookTableViewCell.m in Sources */,
+				49EE6E6D1C4DD3EF0000D366 /* LMS_Discover_ViewController.m in Sources */,
+				49E88DC61C44965A008C7621 /* LMSBaseView.m in Sources */,
+				49E88DC91C44966C008C7621 /* LMSBaseTableViewCell.m in Sources */,
+				49ABDA041C50CFF30013658C /* LMSMusicMenuCollectionViewCell.m in Sources */,
+				494202991C4F2A6700A259EE /* LMS_MVPlayerViewController.m in Sources */,
+				493895D01C4F313800647C42 /* PhotoManager.m in Sources */,
+				4900069E1C49300900024297 /* LMSMusicPlayerTool.m in Sources */,
+				4942029E1C4F2A6700A259EE /* LMS_SearchPageViewController.m in Sources */,
+				4900069B1C4924A600024297 /* LMSMusicTimeFormatter.m in Sources */,
+				49E88DCF1C4498E7008C7621 /* LMS_LeftDrawer_ViewController.m in Sources */,
+				49E88DB71C4494FC008C7621 /* CoreDataManager.m in Sources */,
+				49CD2F801C50BFBA00DC39E1 /* LMS_MVLook.m in Sources */,
+				49ABDA0F1C50E02E0013658C /* LMS_MusicList_TableViewCell.m in Sources */,
+				493895CE1C4F313800647C42 /* CameraManager.m in Sources */,
+				49EE6E8C1C4DE5FE0000D366 /* LMSZeroCollectionViewCell.m in Sources */,
+				49E88D791C449207008C7621 /* AppDelegate.m in Sources */,
+				49ABDA001C50CFF30013658C /* LMSMusicListViewController.m in Sources */,
+				493895D61C4F313800647C42 /* SelectSpecialView.m in Sources */,
+				49E88DBA1C449526008C7621 /* Freedom.xcdatamodeld in Sources */,
+				4942029D1C4F2A6700A259EE /* LMS_PlayerView.m in Sources */,
+				49E88DC01C449638008C7621 /* LMSBaseViewController.m in Sources */,
+				49ABDA021C50CFF30013658C /* LMSMusicListView.m in Sources */,
+				493895D71C4F313800647C42 /* ViewController.m in Sources */,
+				490006951C48E56D00024297 /* LMSMusicInfo.m in Sources */,
+				49E88D761C449207008C7621 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E88D801C449207008C7621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E88D891C449207008C7621 /* FreedomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49E88D8B1C449207008C7621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E88D941C449207008C7621 /* FreedomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E88D861C449207008C7621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49E88D701C449207008C7621 /* Freedom */;
+			targetProxy = 49E88D851C449207008C7621 /* PBXContainerItemProxy */;
+		};
+		49E88D911C449207008C7621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49E88D701C449207008C7621 /* Freedom */;
+			targetProxy = 49E88D901C449207008C7621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49E88D7C1C449207008C7621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E88D7D1C449207008C7621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49E88D961C449207008C7621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49E88D971C449207008C7621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E88D991C449207008C7621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74076B9D8395AF4A796A9EF0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Freedom/PrefixHeader.pch";
+				INFOPLIST_FILE = Freedom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.Freedom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49E88D9A1C449207008C7621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7E2DBF01904A0D414CE2A4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Freedom/PrefixHeader.pch";
+				INFOPLIST_FILE = Freedom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.Freedom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49E88D9C1C449207008C7621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreedomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.FreedomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freedom.app/Freedom";
+			};
+			name = Debug;
+		};
+		49E88D9D1C449207008C7621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreedomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.FreedomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freedom.app/Freedom";
+			};
+			name = Release;
+		};
+		49E88D9F1C449207008C7621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreedomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.FreedomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Freedom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49E88DA01C449207008C7621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreedomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.FreedomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Freedom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E88D6C1C449207008C7621 /* Build configuration list for PBXProject "Freedom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E88D961C449207008C7621 /* Debug */,
+				49E88D971C449207008C7621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E88D981C449207008C7621 /* Build configuration list for PBXNativeTarget "Freedom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E88D991C449207008C7621 /* Debug */,
+				49E88D9A1C449207008C7621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E88D9B1C449207008C7621 /* Build configuration list for PBXNativeTarget "FreedomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E88D9C1C449207008C7621 /* Debug */,
+				49E88D9D1C449207008C7621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E88D9E1C449207008C7621 /* Build configuration list for PBXNativeTarget "FreedomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E88D9F1C449207008C7621 /* Debug */,
+				49E88DA01C449207008C7621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49E88DB81C449526008C7621 /* Freedom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49E88DB91C449526008C7621 /* Freedom.xcdatamodel */,
+			);
+			currentVersion = 49E88DB91C449526008C7621 /* Freedom.xcdatamodel */;
+			path = Freedom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49E88D691C449207008C7621 /* Project object */;
+}
